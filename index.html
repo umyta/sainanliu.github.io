@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sainan Liu — Staff AI Research Scientist</title>
+  <meta name="description" content="Sainan Liu — Staff AI Research Scientist (3D & Video Generation) at Intel Labs. Publications, projects, and contact."/>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --panel:#ffffff;
+      --text:#0f172a;
+      --muted:#475569;
+      --accent:#0b6bcb;
+      --chip:#f1f5f9;
+      --card:#ffffff;
+      --border:#e5e7eb;
+      --maxw:980px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{display:grid;grid-template-columns:320px 1fr;min-height:100vh}
+    aside{position:sticky;top:0;align-self:start;height:100vh;padding:36px 28px;background:var(--panel);border-right:1px solid var(--border)}
+    main{padding:40px;max-width:var(--maxw)}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+    .photo{width:96px;height:96px;border-radius:50%;object-fit:cover;border:2px solid var(--border);box-shadow:0 0 0 4px rgba(255,255,255,0.03)}
+    h1{font-size:28px;margin:0 0 2px 0}
+    .role{color:var(--muted);margin:0}
+    nav{margin-top:28px;display:flex;flex-direction:column;gap:10px}
+    nav a{padding:8px 10px;border-radius:12px;color:var(--text)}
+    nav a:hover{background:#f1f5f9}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .chip{background:var(--chip);border:1px solid var(--border);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:12px}
+    section{padding:36px 0;border-bottom:1px solid var(--border)}
+    h2{font-size:22px;margin:0 0 16px 0}
+    .lead{color:var(--muted)}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px 16px}
+    .grid{display:grid;gap:14px}
+    .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .pub{padding:14px 16px;border:1px solid var(--border);border-radius:12px;background:var(--card)}
+    .pub .venue{color:var(--muted);font-size:13px}
+    .exp{display:flex;gap:14px}
+    .exp .when{color:var(--muted);min-width:160px}
+    .footer{padding:28px 0;color:var(--muted)}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid var(--border);background:#141824}
+    .social{display:flex;gap:10px;margin-top:10px}
+    .kbd{font-family:ui-monospace,Menlo,Consolas,monospace;background:#f8fafc;border:1px solid var(--border);padding:2px 6px;border-radius:6px}
+    @media (max-width: 980px){
+      .wrap{grid-template-columns:1fr}
+      aside{position:relative;height:auto}
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <!-- Left panel -->
+  <aside>
+    <header>
+      <!-- Replace src with your uploaded image path in your repo: e.g., assets/photo.jpg -->
+      <img class="photo" src="assets/photo.jpg" alt="Portrait of Sainan Liu"/>
+      <div>
+        <h1>Sainan Liu, Ph.D.</h1>
+        <p class="role">Staff AI Research Scientist · Intel Labs</p>
+        <p class="role">Email: sainan.liu [at] gmail [dot] com</p>
+      </div>
+    </header>
+
+    <div class="chips">
+      <span class="chip">3D Generation</span>
+      <span class="chip">Video Diffusion</span>
+      <span class="chip">Neural Rendering</span>
+      <span class="chip">Perception</span>
+    </div>
+
+    <nav aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#talks">Talks & Activities</a></nav>
+
+    <div style="margin-top:28px"><div class="social">
+        <!-- Add your links below -->
+        <a href="https://scholar.google.com/citations?user=DKMKhLEAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://github.com/umyta" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/sainan-stephanie-liu" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p class="lead">I’m a Staff AI Research Scientist at Intel Labs working on <strong>3D reconstruction/generation</strong> and <strong>video generation</strong>. I collaborate across research and product teams, mentor students, and publish at venues including CVPR, ICML, WACV, and ICRA.</p>
+      <div class="grid cols-2" style="margin-top:14px">
+        <div class="card">
+          <strong>Education</strong>
+          <ul>
+            <li>Ph.D., Computer Science — UC San Diego</li>
+            <li>M.S., Computer Science — UC San Diego</li>
+            <li>B.Sc., Computer Science — University of British Columbia</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Research Interests</strong>
+          <ul>
+            <li>3D representations for generation and reconstruction</li>
+            <li>Video diffusion and controllable video editing</li>
+            <li>Neural radiance fields & graphics primitives</li>
+            <li>Perception for robotics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <style>
+        /* publication layout with left snapshot */
+        .pub{display:flex;gap:16px;align-items:flex-start}
+        .pub .shot{flex:none;width:120px;height:80px;border:1px dashed var(--border);border-radius:10px;background:var(--chip);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px}
+        .pub .meta{flex:1}
+        .pub .title{font-weight:600;display:inline-block;margin-bottom:4px}
+        .pub .links{margin-top:6px;font-size:13px}
+        .pub .links a{margin-right:10px}
+      </style>
+      <div class="grid">
+        <article class="pub">
+          <div class="shot" aria-hidden="true">Snapshot</div>
+          <div class="meta">
+            <a class="title" href="https://github.com/isl-org/unifi3d" target="_blank" rel="noopener">Unifi3D: A Study on 3D Representations for Generation and Reconstruction in a Common Framework</a>
+            <div class="venue">TMLR, 2025 — Nina Wiedemann, <strong>Sainan Liu</strong>, Quentin Leboutet, Katelyn Gao, Benjamin Ummenhofer, Michael Paulitsch, Kai Yuan.</div>
+            <div class="links">
+              <a href="">Paper(TBD)</a>
+              <a href="https://github.com/isl-org/unifi3d">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="pub">
+          <div class="shot" aria-hidden="true">Snapshot</div>
+          <div class="meta">
+            <a class="title" href="#" target="_blank" rel="noopener">PISA Experiments: What Video Diffusion Models Learn from Watching Stuff Drop</a>
+            <div class="venue">ICML, 2025 — Chenyu Li, Oscar Michael, Xichen Pan, <strong>Sainan Liu</strong>, Mike Roberts, Saining Xie.</div>
+            <div class="links">
+              <a href="https://arxiv.org/pdf/2503.09595">Paper</a>
+              <a href="https://github.com/vision-x-nyu/pisa-experiments">Code</a>
+              <a href="https://vision-x-nyu.github.io/pisa-experiments.github.io/">Project</a>
+            </div>
+          </div>
+
+
+        </article>
+        <article class="pub">
+          <div class="shot" aria-hidden="true">Snapshot</div>
+          <div class="meta">
+            <a class="title" href="#" target="_blank" rel="noopener">CtRNet-X: Camera-to-Robot Pose Estimation in Real-world Conditions Using a Single Camera</a>
+            <div class="venue">ICRA, 2025 — Jingpei Lu, Zekai Liang, Tristin Xie, Florian Ritcher, Shan Lin, <strong>Sainan Liu</strong>, Michael C. Yip.</div>
+          </div>
+        </article>
+        <article class="pub">
+          <div class="shot" aria-hidden="true">Snapshot</div>
+          <div class="meta">
+            <a class="title" href="#" target="_blank" rel="noopener">BASED: Bundle-Adjusting Surgical Endoscopic Dynamic Video Reconstruction using NeRFs</a>
+            <div class="venue">WACV, 2025 — Shreya Saha, Zekai Liang, Shan Lin, Jingpei Lu, Michael Yip, <strong>Sainan Liu</strong>.</div>
+          </div>
+        </article>
+        <article class="pub">
+          <div class="shot" aria-hidden="true">Snapshot</div>
+          <div class="meta">
+            <a class="title" href="#" target="_blank" rel="noopener">Image Sculpting: Precise Object Editing with 3D Geometry Control</a>
+            <div class="venue">CVPR, 2024 — J. Yenphraphai, X. Pan, <strong>Sainan Liu</strong>, D. Panozzo, S. Xie.</div>
+          </div>
+        </article>
+        <article class="pub">
+          <div class="shot" aria-hidden="true">Snapshot</div>
+          <div class="meta">
+            <a class="title" href="#" target="_blank" rel="noopener">BAA-NGP: Bundle-Adjusting Accelerated Neural Graphics Primitives</a>
+            <div class="venue">CVPRW, 2024 — <strong>Sainan Liu</strong>*, Shan Lin*, Jingpei Lu, Alexey Supikov, Michael Yip. *co-first authors</div>
+          </div>
+        </article>
+        <article class="pub">
+          <div class="shot" aria-hidden="true">Snapshot</div>
+          <div class="meta">
+            <a class="title" href="#" target="_blank" rel="noopener">Towards Panoptic 3D Parsing for Single-View Image in the Wild</a>
+            <div class="venue">arXiv, 2021 — <strong>Sainan Liu</strong>, Yuan Gao, Vincent Nguyen, Subarna Tripathi, Zhuowen Tu.</div>
+          </div>
+        </article>
+        <article class="pub">
+          <div class="shot" aria-hidden="true">Snapshot</div>
+          <div class="meta">
+            <a class="title" href="#" target="_blank" rel="noopener">Recognizing Objects From Any View with Object and Viewer-Centered Representations</a>
+            <div class="venue">CVPR, 2020 — <strong>Sainan Liu</strong>, Vincent Nguyen, Isaac Rehg, Zhuowen Tu.</div>
+          </div>
+        </article>
+        <article class="pub">
+          <div class="shot" aria-hidden="true">Snapshot</div>
+          <div class="meta">
+            <a class="title" href="#" target="_blank" rel="noopener">Attentional ShapeContextNet for Point Cloud Recognition</a>
+            <div class="venue">CVPR, 2018 — <strong>Sainan Liu</strong>, Saining Xie, Zeyu Chen, Zhuowen Tu.</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <h2>Career Timeline</h2>
+      <style>
+        .timeline{position:relative;padding-left:18px}
+        .timeline:before{content:"";position:absolute;left:6px;top:4px;bottom:4px;width:2px;background:var(--border)}
+        .tl-item{position:relative;margin:0 0 14px 0;padding-left:14px}
+        .tl-item:before{content:"";position:absolute;left:-2px;top:4px;width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px #ffffff}
+        .tl-item .when{color:var(--muted);font-size:13px}
+        .tl-item .what{font-weight:600}
+        .tl-item .where{color:var(--muted)}
+      </style>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="what">Staff AI Research Scientist — Intel Labs</div>
+          <div class="when">Nov 2021 – Present · San Diego, CA</div>
+        </div>
+        <div class="tl-item">
+          <div class="what">Research Intern — Google Research</div>
+          <div class="when">Jun 2021 – Aug 2021</div>
+        </div>
+        <div class="tl-item">
+          <div class="what">Research Intern — Intel Labs</div>
+          <div class="when">Jan 2020 – Mar 2021</div>
+        </div>
+        <div class="tl-item">
+          <div class="what">Research Intern — Waymo</div>
+          <div class="when">Jun 2019 – Sep 2019</div>
+        </div>
+        <div class="tl-item">
+          <div class="what">Applied Scientist Intern — Amazon (AWS Rekognition)</div>
+          <div class="when">Jul 2018 – Oct 2018</div>
+        </div>
+        <div class="tl-item">
+          <div class="what">Research Associate — Qualcomm</div>
+          <div class="when">May 2017 – Jul 2017</div>
+        </div>
+        <div class="tl-item">
+          <div class="what">Software Engineering Intern — Google ATAP (Project Tango)</div>
+          <div class="when">2014 – 2015</div>
+        </div>
+        <div class="tl-item">
+          <div class="what">Software Engineering Intern — hiDOF</div>
+          <div class="when">May 2014 – Aug 2014</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="talks">
+      <h2>Talks & Activities</h2>
+      <ul>
+        <li>CVPR 2024 — <em>VO/CV Workshop</em> talk on BAA‑NGP.</li>
+        <li>CVPR 2020 — <em>DL Foundations of Geometric Shape Modeling</em> talk on View‑centered recognition.</li>
+        <li>Organizer/Host — <em>DL for Geometric Computing Workshop</em>, CVPR 2024.</li>
+        <li>MIT Summer Geometry Initiative — Mentor, 2023–2025.</li>
+      </ul>
+    </section>
+
+    
+
+    <div class="footer">© <span id="y"></span> Sainan Liu. Built with plain HTML/CSS and hosted via GitHub Pages.</div>
+  </main>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
